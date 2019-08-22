@@ -36,5 +36,8 @@ object pepita {
 		} else if (self.estaFeliz()) {
 			self.volar(8)
 		}
+		else{
+			
+		}
 	}
 }
