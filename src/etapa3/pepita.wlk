@@ -24,15 +24,11 @@ object pepita {
 		self.volar(5)
 		self.comer(alpiste,80)
 		self.volar(5)		
-		// "self" es una referencia al objeto que recibe el mensaje
-		// ... completar este metodo con las otra acciones sobre self
 	}
 	
 	method haceLoQueQuieras() { 
 		if (self.estaDebil()) {
 			self.comer(alpiste, 20)
-		// completar el método, de acuerdo a la estructura
-		// que se deja comentada aca abajo
 		} else if (self.estaFeliz()) {
 			self.volar(8)
 		}

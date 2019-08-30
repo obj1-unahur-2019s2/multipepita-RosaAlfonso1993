@@ -47,7 +47,7 @@ object canelones_corto{
 
 object canelones_largo{
 	var tieneQueso = false
-	var tieneSalsa = falsa
+	var tieneSalsa = false
 	
 	method ponerSalsa(){tieneSalsa = true}
 	method sacarSalsa(){tieneSalsa = false}
