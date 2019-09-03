@@ -30,12 +30,12 @@ object marDelPlata{
 }
 
 object noroeste{
-	var aveViajera 
+	var aveViajera = pepita.energia()
 	
 	method aveViajera(ave){
-		aveViajera = ave
+		aveViajera = ave.energia()
 	}
-	method energiaRevitalizadora(ave){
+	method energiaRevitalizadora(){
 		return aveViajera * 0.1
 	}
 }
